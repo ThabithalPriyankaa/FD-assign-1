@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product listing page</title>
+    <script src="https://kit.fontawesome.com/f1df765a82.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        body {
+            background-color: rgb(141, 180, 141);
+        }
+        
+        .image {
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 300px;
+            float: left;
+        }
+        
+        .content {
+            margin: 100px;
+            width: 50%;
+            padding: 8px
+        }
+        
+        h2 {
+            color: black;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .rating {
+            margin-bottom: 40px;
+            transform: translate(-50%);
+            display: flex;
+        }
+        
+        .size {
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0, 0, 0, 5px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+        }
+        
+        .input {
+            width: 30px;
+        }
+        
+        .cart :hover {
+            color: black;
+        }
+    </style>
+
+    <body>
+        <h1>Product Page</h1>
+        <div class="content">
+            <div class="image">
+                <img class="image" src="hood.jpg" alt="hoodie" />
+            </div>
+            <div class="about">
+                <p>Brand:Roadster</p>
+                <h2>F.R.I.E.N.D.S Printed Hoodie|Full Seleve Crop Sweatshirt for Women's/Girl's White</h2>
+
+                <h4>Rs:400 <strike> RS 1499</strike></h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+
+                </div>
+                <p class="color"> Color: White</p>
+                <p class="Availability">Availability: 4 in stock!</p>
+                <div class="size">
+                    <input type="radio" value="S" name="mysize" id="small">
+                    <label for="small">S</label>
+                    <input type="radio" value="M" name="mysize" id="medium">
+                    <label for="medium">M</label>
+                    <input type="radio" value="L" name="mysize" id="large">
+                    <label for="large">L</label>
+                    <input type="radio" value="XL" name="mysize" id="xtralarge">
+                    <label for="xtralarge">XL</label>
+
+                    <p>Quantity: <input type="text" size="1px" value="1"></p>
+                    <div class="cart">
+                        <button>
+                        <i class="shopping cart"></i>
+                        Add to Cart
+                    </button>
+
+                        <button>
+                        <i class= "wishlist"></i>
+                        Wishlist
+                    </button>
+
+
+                        <h4>Product Description</h4>
+                        <p>'Friends' printed hoodie for women. Ideal for casual wear. It can be paired with jeans, skirts, leggings, etc. Made of high-quality 100% cotton, it's comfortable for all-seasons. Screenprint with a premium matte finish Made in
+                            India
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+
+</html>
